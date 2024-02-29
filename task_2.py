@@ -1,8 +1,9 @@
 from collections import Counter
 
+
 def diversity(a, b):
     """
-    Повторяющиеся карточки подсчитываю с помощью Counter
+    Повторяющиеся карточки подсчитываю с помощью Counter.
     Функция для вычисления разнообразия коллекций
     """
     a_counter = Counter(a)
